@@ -162,7 +162,7 @@
     }
     .line-item {
         width: 200px;
-        margin-left: 85px;
+        margin-left: 85px;  
     }
     .card-info {
         /* margin-left: 200px; */
@@ -183,18 +183,19 @@
         margin-left: 10px;
     }
     .service-label {
-        font-size: 14px;
+        font-size: 16px;
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-right: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
         text-align: justify;
-        
     }
     .service-info {
-        font-size: 14px;
+        font-size: 16px;
         min-width: 110px;
-        text-align: justify;
+        /* text-align: justify; */
+        margin-left: 10px;
     }
     .categories {
         /* background-color: yellow; */
