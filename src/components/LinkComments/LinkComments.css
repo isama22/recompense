@@ -23,26 +23,11 @@
 
 @media screen and (max-width: 375px){
     .l-comment-container {
-        width: 300px;
-        margin-left: 0px;
-    }
-    .comments {
-        width: 300px;
-    }
-    .form-container {
-        width: 300px;
-        margin-top: 20px;
-    }
-    .comment-form {
-        width: 300px;
-    }
-    .comment-text {
-        word-wrap: normal;
-        margin: 10px;
-        width: 250px;
-    }
-    .creator {
-        margin-left: 10px;
-        min-width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        max-width: 335px;
+        min-height: 52px;
     }
 }

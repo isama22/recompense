@@ -11,7 +11,7 @@ class ServiceDetailPage extends Component {
 
     render() {
         return (
-            <div className='detail-page'>
+            <>
                 <div className='post-detail'>
                     <ServiceCard
                         className="service-card"
@@ -37,7 +37,7 @@ class ServiceDetailPage extends Component {
                     handleDeleteServiceComment={this.props.handleDeleteServiceComment}
                     handleGetAllServices={this.props.handleGetAllServices}
                 />
-            </div>
+            </>
         )
     }
 }

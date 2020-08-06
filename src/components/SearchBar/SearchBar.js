@@ -9,7 +9,7 @@ const customStyles = {
     color: state.isSelected ? 'white' : '#3c0c15',
   }),
   control: () => ({
-    width: 150,
+    width: 120,
   }),
   singleValue: (provided, state) => {
     const opacity = state.isDisabled ? 0.5 : 1;

@@ -50,7 +50,7 @@
 
 .form-item {
     width: 400px;
-    margin: 6px 80px;
+    margin: 6px 0px;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -145,8 +145,8 @@
 }
 
 .add-links {
-    padding: 3px 78px;
-    max-width: 500px;
+    padding: 3px 0px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -154,14 +154,17 @@
 
 @media screen and (max-width: 375px) {
     .add-service-page {
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
     .add-service-form {
+        width: 100%;
         margin-top: 0px;
-        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -170,16 +173,8 @@
         margin-left: 0px;
     }
     .service-form {
-        width: 185px;
+        width: 260px;
         height: 32px;
-        border-radius: 4px;
-        text-align: left;
-        background-color: #e7e3da;
-        text-transform: lowercase;
-        outline: none;
-        border-style: hidden;
-        color: #3c0c15;
-        border-radius: 4px;
         font-size: 14px;
         margin-right: 0px;
         padding-left: 10px;
@@ -188,10 +183,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         font-size: 14px;
-        width: 200px;
-        margin: 22px 0px 22px 0px;
+        margin: 22px 0px -3px 0px;
         position: relative;
     }
     .description {
@@ -204,8 +197,9 @@
         justify-content: center;
         align-items: flex-start;
         flex-flow: row wrap;
-        width: 225px;
+        width: 295px;
         min-height: 80px;
+
     }
     .form-label {
         color: #3c0c15;
@@ -214,11 +208,17 @@
         min-width: 100%;
         font-size: 11px;
     }
+    .service-categories {
+        width: 280px;
+        font-size: 14px;
+        text-align: center;
+        margin: 12px;
+    }
     .add-links {
         display: flex;
         justify-content: space-between;
         margin-right: 0px;
-        width: 59.3%;
+        width: 100%;
     }
     .cancel-button {
         margin-left: 0px;
@@ -229,5 +229,6 @@
 
     .dates {
         -webkit-appearance: none;
+        width: 260px;
     }
 }

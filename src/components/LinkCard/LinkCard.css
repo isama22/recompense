@@ -47,52 +47,33 @@
 
 @media screen and (max-width: 375px){
 
-    .detail-card-container {
-        margin-left: 0px;
-        display: flex;
-        justify-content: center;
-    }
     .link-detail-card {
-        width: 270px;
-    }
-    .line-item {
-        width: 200px;
-        margin-left: 85px;
-    }
-    .card-info {
-        /* margin-left: 200px; */
-        width: 270px;
-        margin-right: 130px;
-    }
-    .card-links {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 320px;
+        min-height: 270px;
         display: flex;
         justify-content: center;
-        margin-left: 0px;
-        /* background-color: yellow; */
-        /* width: 200px; */
+        align-items: center;
+        flex-flow: row wrap;
     }
-    .delete {
-        margin-right: 10px;
-    }
-    .edit {
-        margin-left: 10px;
-    }
+
     .link-label {
-        font-size: 10px;
+        color: #3c0c15;
+        font-size: 11px;
+        margin-right: 0px;
+        min-width: 100px;
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
-        margin-right: 10px;
-        
+        align-items: center;
+        margin-left: 10px;
     }
     .link-info {
-        font-size: 10px;
-        min-width: 110px;
-    }
-    .categories {
-        /* background-color: yellow; */
         display: flex;
-        flex-flow: nowrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        width: 250px;
     }
     .link-city {
         margin-right: 100px;

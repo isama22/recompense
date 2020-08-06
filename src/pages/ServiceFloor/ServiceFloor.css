@@ -35,6 +35,7 @@
     .service-page {
         display: flex;
         flex-direction: column;
+        width: 98%;
         /* width: 300px; */
     }
     .posts {

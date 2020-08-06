@@ -85,10 +85,10 @@
 }
 
 .card-links {
-    margin: 40px 100px 20px 100px;
+    margin: 40px 10px 20px 68px;
     display: flex;
     font-size: 12px;
-    width: 400px;
+    width: 460px;
     justify-content: space-around;
 }
 
@@ -154,59 +154,139 @@
 
     .detail-card-container {
         margin-left: 0px;
-        display: flex;
-        justify-content: center;
     }
+    
     .detail-card {
-        width: 270px;
-    }
-    .line-item {
-        width: 200px;
-        margin-left: 85px;  
-    }
-    .card-info {
-        /* margin-left: 200px; */
-        width: 270px;
-        margin-right: 130px;
-    }
-    .card-links {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 320px;
+        min-height: 220px;
         display: flex;
         justify-content: center;
-        margin-left: 0px;
-        /* background-color: yellow; */
-        /* width: 200px; */
+        align-items: center;
+        flex-flow: row wrap;
     }
-    .delete {
-        margin-right: 10px;
+    
+    .service-date {
+        font-size: 11px;
+        color: black;
+        margin: 0px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 60px;
     }
-    .edit {
-        margin-left: 10px;
+    
+    .service-dates-label {
+        font-size: 11px;
+        color: grey;
     }
+    
+    .title-group {
+        margin: 5px 0px 25px 0px;
+        width: 300px;
+        height: 30px;
+    }
+    
+    .card-name {
+        color: #3c0c15;
+        font-size: 13px;
+        border-radius: 10px;
+    }
+
+    .card-info {
+        width: 320px;
+        margin-right: 0px;
+    }
+    
+    .post-date {
+        font-size: 10px;
+        color: grey;
+        margin-top: -8px;
+    }
+    
+    .line-item {
+        width: 300px;
+        margin: 8px 0px 8px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .categories {
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: 5px;
+    }
+    
     .service-label {
-        font-size: 16px;
+        color: #3c0c15;
+        font-size: 11px;
+        margin-right: 0px;
+        min-width: 100px;
         display: flex;
         justify-content: flex-start;
-        align-items: flex-start;
-        margin-right: 0px;
-        margin-left: 0px;
-        text-align: justify;
+        align-items: center;
+        margin-left: 15px;
     }
+    
     .service-info {
-        font-size: 16px;
-        min-width: 110px;
-        /* text-align: justify; */
-        margin-left: 10px;
-    }
-    .categories {
-        /* background-color: yellow; */
         display: flex;
-        flex-flow: nowrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        width: 250px;
     }
-    .service-city {
-        margin-right: 100px;
-        width: 200px;
-        font-size: 14px;
-        word-break: unset;
-        
+    
+    .card-links {
+        margin: 20px 0px 10px 5px;
+        display: flex;
+        align-items: center;
+        width: 310px;
+        justify-content: space-around;
+    }
+    
+    .edit {
+        background-color: #3c0c15;
+        color: white;
+        width: 30px;
+        border: none;
+        padding: 8px;
+        font-size: 11px;
+        border-radius: 4px;
+    }
+    
+    .edit:hover {
+        font-weight: bold;
+    }
+    
+    .delete {
+        border: none;
+        width: 60px;
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 11px;
+        background-color: #3c0c15;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .delete:hover {
+        font-weight: bold;
+    }
+    
+    .home-link {
+        padding: 8px;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        width: 135px;
+    }
+    
+    .link-button {
+        text-align: right;
+        margin: 0px;
+        border-radius: 8px;
+        margin: 0px;
     }
 }

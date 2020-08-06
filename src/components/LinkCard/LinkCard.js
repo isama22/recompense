@@ -22,39 +22,39 @@ function LinkCard({ link, handleDeleteLink, user }) {
                 <div className='card-info'>
                     <div>
                         <div className="line-item">
-                            <span className='link-label'>City, State :: </span>
-                            <span className='link-info' key={link.id}>{cities}</span>
+                            <span className='service-label'>City, State :: </span>
+                            <span className='service-info' key={link.id}>{cities}</span>
                         </div>
                         <div className='line-item'>
-                            <span className='link-label'>Pronouns :: </span>
-                            <span className='link-info' key={link.id}>{link.pronouns}</span>
+                            <span className='service-label'>Pronouns :: </span>
+                            <span className='service-info' key={link.id}>{link.pronouns}</span>
                         </div>
                         <div className='line-item'>
-                            <span className='link-label'>About :: </span>
-                            <span className='link-info about' key={link.id}>{link.description}</span>
+                            <span className='service-label'>About :: </span>
+                            <span className='service-info about' key={link.id}>{link.description}</span>
                         </div>
                         {link.venmo ? 
                         <div className='line-item'>
-                            <span className='link-label'>Venmo :: </span>
-                            <span className='link-info' key={link.id}>{link.venmo}</span>
+                            <span className='service-label'>Venmo :: </span>
+                            <span className='service-info' key={link.id}>{link.venmo}</span>
                         </div>      : <div></div>}
                         {link.cashapp ? 
                         <div className='line-item'>
-                            <span className='link-label'>CashApp :: </span>
-                            <span className='link-info' key={link.id}>{link.cashapp}</span>
+                            <span className='service-label'>CashApp :: </span>
+                            <span className='service-info' key={link.id}>{link.cashapp}</span>
                         </div>        : <div></div>}
                         {link.paypal ? 
                             <div className='line-item'>
-                                <span className='link-label'>PayPal :: </span>
-                                <span className='link-info' key={link.id}>{link.paypal}</span>
+                                <span className='service-label'>PayPal :: </span>
+                                <span className='service-info' key={link.id}>{link.paypal}</span>
                             </div>       
                             : 
                             <div></div>
                         }
                         {user._id && link.contactEmail ?
                             <div className='line-item'>
-                                <span className='link-label'>Contact Email:: </span>
-                                <span className='link-info' key={link.id}>{link.creator} at {link.contactEmail}</span>
+                                <span className='service-label'>Contact Email:: </span>
+                                <span className='service-info' key={link.id}>{link.creator} at {link.contactEmail}</span>
                             </div>
                         : <div></div>} 
                     </div>

@@ -19,55 +19,9 @@
 @media screen and (max-width: 375px){
 
     .request-detail-card {
-        margin-left: 20px;
-        display: flex;
-        justify-content: center;
-        width: 270px;
-    }
-    .service-item {
-        width: 200px;
-        margin-left: 85px;
-    }
-    .card-info {
-        /* margin-left: 200px; */
-        width: 270px;
-        margin-right: 130px;
-    }
-    .card-links {
-        display: flex;
-        justify-content: center;
-        margin-left: 0px;
-        /* background-color: yellow; */
-        /* width: 200px; */
-    }
-    .delete {
-        margin-right: 10px;
-    }
-    .edit {
-        margin-left: 10px;
-    }
-    .service-label {
-        font-size: 10px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        margin-right: 10px;
-        
-    }
-    .service-info {
-        font-size: 10px;
-        min-width: 110px;
-    }
-    .categories {
-        /* background-color: yellow; */
-        display: flex;
-        flex-flow: nowrap;
-    }
-    .service-city {
-        margin-right: 100px;
-        width: 200px;
-        font-size: 14px;
-        word-break: unset;
-        
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 335px;
+        min-height: 270px;
     }
 }

@@ -203,7 +203,7 @@
 
     .contact-home {
         width: 375px;
-        height: 430px;
+        height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -226,7 +226,7 @@
         min-height: 290px;
         position: relative;
         margin-left: 0px;
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .mobile-contact-p-2 {
@@ -237,7 +237,7 @@
         min-width: 315px;
         min-height: 350px;
         position: absolute;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .mobile-contact-p-1 {

@@ -27,15 +27,15 @@
 
 @media screen and (max-width: 375px){
 
-  /* .img-title {
-    margin: 30px 0px -15px 0px;
+  .img-title {
+    margin: -5px 0px -20px 10px;
+    width: 250px;
+    height: 35px;
   }
 
   .img-title:hover {
-    margin: 27.4843px 0px -17.51px 0px;
+    width: 250px;
+    height: 38.02px;
+    margin: -6.5157px  0px -21.51px 10px;
   }
-
-  .mobile-title {
-    width: 100%;
-  } */
 }

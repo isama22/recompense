@@ -35,7 +35,7 @@
 }
 
 .post-detail {
-    margin: 30px;
+    margin: 30px 30px 30px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +44,16 @@
 
 @media screen and (max-width: 375px){
     .comment-title {
-        margin-left: 135px;
+        margin-left: 18px;
+        text-align: left;
+        width: 335px;
+    }
+
+    .post-detail {
+        margin: 57.5px 30px 30px 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 }
